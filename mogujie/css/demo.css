@@ -2,26 +2,55 @@
 
 .login_warp{width: 900px;height: 640px;margin: auto;}
 #logo{width: 900px;height: 40px;background-image: url("image/logo.png");background-repeat: no-repeat;margin: 30px auto;cursor: pointer;}
-.content-clearfix{width: 100%;height: 540px;padding-top:40px;border: 1px solid red }
+.content-clearfix{width: 100%;height: 540px;padding-top:40px; }
 #lg_banner{width: 440px;height: 330px;float: left; padding: 20px 0 0 40px;background-image: url("image/mian.jpg");background-repeat: no-repeat;background-size: 400px 300px;cursor: pointer;}
 
-.login{width: 362px;height: 354px;border: 1px solid #dcdcdc;float: right;}
+.login{width: 362px;height: 405px;border: 1px solid #dcdcdc;float: right;}
 #login_top{width: 100%;height: 70px;}
-#login_top_left{width: 180px;height: 44px;float: left;border-right: 1px solid #dcdcdc;cursor: pointer;color: yellow}
+#login_top_left{width: 180px;height: 44px;float: left;border-right: 1px solid #dcdcdc;cursor: pointer;color: #333333}
 #butong{font-size: 14px;font-weight: 700;display: block;text-align: center;margin-top: 10px}
-#login_top_right{width: 180px;height: 44px;float: right;cursor: pointer;color: red}
+#login_top_right{width: 180px;height: 44px;float: right;cursor: pointer;color: #AAAAAA}
 #shouji{font-size: 14px;font-weight: 700;display: block;text-align: center;margin-top: 10px }
+.active{border-bottom: 1px solid #dcdcdc;}
 
-#content_left{width: 322px;height: 252;float: right;border: 1px solid red;}
+#content_left{width: 322px;height: 252;float: right;}
 .loginName{width: 282px;height: 36px;}
 #zhangHao{width: 281px;height: 35px;border: 1px solid #ccc;color: rgb(153, 153, 153);padding-left: 35px; border-radius: 3px;background-image: url("image/icon1.png");background-repeat: no-repeat;}
 .loginPass{width: 282px;height: 36px;padding-top: 15px}
 #miMa{width: 281px;height: 35px;border: 1px solid #ccc; color: rgb(153, 153, 153);padding-left: 35px; border-radius: 3px;background-image: url("image/icon2.png");background-repeat: no-repeat;}
 #lg_remember{width: 282px;height: 19px;padding-top: 15px;color: #bbb;font-size: 13px}
 
+#lg_login{width: 322px;height: 46px;padding-top: 10px}
+#dengLu{width: 142px;height: 36px;border-radius: 5px;background-color: #7FB924;color: #FFFFFF;font-family: 微软雅黑;display: block;text-align: center;line-height: 32px; font-size: 18px;cursor: pointer;float: left;}
+.m115{width: 70px;height: 36px;padding-left: 10px;float: left;font-size: 13px;color: #666666;margin-top: 10px;cursor: pointer;}
+.m115:hover{text-decoration:underline;color: #333333}
+.m15{width: 70;height: 36px;padding-left: 5px;float: left;font-size: 13px;color: #666666;margin-top: 10px;cursor: pointer;}
+.m15:hover{text-decoration:underline;color: #333333}
 
 
+#ot_login{width: 322px;height: 55px}
+#ot{width: 100%;height: 14px;padding-top: 20px;padding-bottom: 5px; font-size: 14px;color: #999999}
+#im1{width: 30px;height: 30px;padding: 5px;float: left;background-image: url("image/xinlang.png");background-repeat: no-repeat;cursor: pointer;}
+#im2{width: 30px;height: 30px;padding: 5px;float: left;background-image: url("image/qq.png");background-repeat: no-repeat;cursor: pointer;}
+#im3{width: 30px;height: 30px;padding: 5px;float: left;background-image: url("image/weibo.png");background-repeat: no-repeat;cursor: pointer;}
+#im4{width: 30px;height: 30px;padding: 5px;float: left;background-image: url("image/renren.png");background-repeat: no-repeat;cursor: pointer;}
+#im5{width: 30px;height: 30px;padding: 5px;float: left;background-image: url("image/weixin.png");background-repeat: no-repeat;cursor: pointer;}
 
+#content_right{width: 322px;height: 303;float: right;}
+#huoQu{width: 281px;height: 35px;border: 1px solid #ccc;border-radius: 3px;margin-top: 15px;background-color: #F2F2F2;color: #111111;text-align: center;display: block; line-height: 35px;font-size: 12px;cursor: pointer;}
 
+#footer{width: 100%;height: 126px;background-color: #F5F5F5}
+#footer_top{width: 900px;height: 126px;margin: auto;border-bottom: 1px red #DCDCDC}
+.xinShou{width: 130px;height: 125px;float: left;}
+.quanYi{width: 130px;height: 125px;float: left;}
+.sangJia{width: 130px;height: 125px;float: left;}
+.xiaoBiaoTi{font-size: 14px;font-weight: bold;color: #333;padding-bottom: 10px;width: 130px;height: 22px}
+.yangShi1{width: 130px;height: 24px;font-size: 10px;color: #666666;cursor: pointer;}
+.yangShi2{width: 130px;height: 24px;font-size: 10px;color: #666666}
+.yangShi1:hover{text-decoration: underline}
 
-#content_right{width: 322px;height: 252;float: right;border: 1px solid red}
+#yiDong{width: 180px;height: 103px;float: right;}
+#wenZi{width: 100px;height: 24px;font-size: 14px;font-weight: bold;color: #333;}
+#pic{width: 100%;height: 76px; background-image: url("image/app.png");background-repeat: no-repeat;margin-top: 5px;cursor: pointer;}
+#footer_bottm{width: 900px;height: 40px;margin: auto;padding-top: 10px}
+.copy{font-size: 10px;color: #999999;display: block;text-align: center}
