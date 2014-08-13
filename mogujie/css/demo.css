@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0}
+
+.login_warp{width: 900px;height: 640px;margin: auto;}
+#logo{width: 900px;height: 40px;background-image: url("image/logo.png");background-repeat: no-repeat;margin: 30px auto;cursor: pointer;}
+.content-clearfix{width: 100%;height: 540px;padding-top:40px;border: 1px solid red }
+#lg_banner{width: 440px;height: 330px;float: left; padding: 20px 0 0 40px;background-image: url("image/mian.jpg");background-repeat: no-repeat;background-size: 400px 300px;cursor: pointer;}
+
+.login{width: 362px;height: 354px;border: 1px solid #dcdcdc;float: right;}
+#login_top{width: 100%;height: 70px;}
+#login_top_left{width: 180px;height: 44px;float: left;border-right: 1px solid #dcdcdc;cursor: pointer;color: yellow}
+#butong{font-size: 14px;font-weight: 700;display: block;text-align: center;margin-top: 10px}
+#login_top_right{width: 180px;height: 44px;float: right;cursor: pointer;color: red}
+#shouji{font-size: 14px;font-weight: 700;display: block;text-align: center;margin-top: 10px }
+
+#content_left{width: 322px;height: 252;float: right;border: 1px solid red;}
+.loginName{width: 282px;height: 36px;}
+#zhangHao{width: 281px;height: 35px;border: 1px solid #ccc;color: rgb(153, 153, 153);padding-left: 35px; border-radius: 3px;background-image: url("image/icon1.png");background-repeat: no-repeat;}
+.loginPass{width: 282px;height: 36px;padding-top: 15px}
+#miMa{width: 281px;height: 35px;border: 1px solid #ccc; color: rgb(153, 153, 153);padding-left: 35px; border-radius: 3px;background-image: url("image/icon2.png");background-repeat: no-repeat;}
+#lg_remember{width: 282px;height: 19px;padding-top: 15px;color: #bbb;font-size: 13px}
+
+
+
+
+
+
+#content_right{width: 322px;height: 252;float: right;border: 1px solid red}
