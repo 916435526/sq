@@ -54,3 +54,11 @@ img{border: 0;}
 #b{width: 36px;height: 12px;margin: 45px 0 0 14px}
 #c{width: 36px;height: 12px;margin: 45px auto}
 #d{width: 36px;height: 12px;margin: 45px auto}
+
+#faXianlist{width: 100%;height: 300px;overflow: auto;background-color: #FAFFF0 }
+#kongJian{width: 91px;height: 93px; float: left;background-color: #CBCFD5;border: 1px solid #ECEEF2}
+#youJian{width: 91px;height: 93px;float: left;background-color: #CBCFD5;border: 1px solid #ECEEF2}
+#qqShouye{width: 92px;height: 93px;float: right;background-color: #CBCFD5;border: 1px solid #ECEEF2}
+.img1{width: 50px;height: 50px;background-image: url("../image/kongJian.jpg");background-size: 100%;background-repeat: no-repeat;margin: 10px auto;cursor: pointer;}
+.img2{width: 50px;height: 50px;background-image: url("../image/youJian.jpg");background-size: 100%;background-repeat: no-repeat;margin: 10px auto;cursor: pointer;}
+.img3{width: 50px;height: 50px;background-image: url("../image/qqshouye.png");background-repeat: no-repeat;background-size: 100%;margin: 10px auto;cursor: pointer;}
