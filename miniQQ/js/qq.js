@@ -52,5 +52,76 @@ $(function(){
 			"left": divLeft + "px"
 		});
 	});
+	
+	$("#closeimage").click(function(){
+		$("#qq").hide();
+	});
+
+	$("#yongHu").show();
+	$("#lianxirenlibiao").hide();
+	$("#faixanlibiao").hide();
+	$("#shezhilibiao").hide();
+	$("#contrlhuiHua").click(function(){
+		$("#yongHu").show();
+		$("#lianxirenlibiao").hide();
+		$("#faixanlibiao").hide();
+		$("#shezhilibiao").hide();
+		$("#contrlhuiHua").css("background-image","url('image/huiHuaclick.png')");
+		$("#contrllianXiren").css("background-image","url('image/lianXiren.png')");
+		$("#contrlfaXian").css("background-image","url('image/faXian.png')");
+		$("#contrlsheZhi").css("background-image","url('image/sheZhi.png')");
+
+		$("#contrlhuiHua").css("background-color","#1E1E1E");
+		$("#contrllianXiren").css("background-color","#373737");
+		$("#contrlfaXian").css("background-color","#373737");
+		$("#contrlsheZhi").css("background-color","#373737");
+		
+	});
+	$("#contrllianXiren").click(function(){
+		$("#yongHu").hide();
+		$("#lianxirenlibiao").show();
+		$("#faixanlibiao").hide();
+		$("#shezhilibiao").hide();
+		$("#contrlhuiHua").css("background-image","url('image/huiHua.png')");
+		$("#contrllianXiren").css("background-image","url('image/lianXirenclick.png')");
+		$("#contrlfaXian").css("background-image","url('image/faXian.png')");
+		$("#contrlsheZhi").css("background-image","url('image/sheZhi.png')");
+
+		$("#contrlhuiHua").css("background-color","#373737");
+		$("#contrllianXiren").css("background-color","#1E1E1E");
+		$("#contrlfaXian").css("background-color","#373737");
+		$("#contrlsheZhi").css("background-color","#373737");
+		
+	});
+	$("#contrlfaXian").click(function(){
+		$("#yongHu").hide();
+		$("#lianxirenlibiao").hide();
+		$("#faixanlibiao").show();
+		$("#shezhilibiao").hide();
+		$("#contrlhuiHua").css("background-image","url('image/huiHua.png')");
+		$("#contrllianXiren").css("background-image","url('image/lianXiren.png')");
+		$("#contrlfaXian").css("background-image","url('image/faXianclick.png')");
+		$("#contrlsheZhi").css("background-image","url('image/sheZhi.png')");
+
+		$("#contrlhuiHua").css("background-color","#373737");
+		$("#contrllianXiren").css("background-color","#373737");
+		$("#contrlfaXian").css("background-color","#1E1E1E");
+		$("#contrlsheZhi").css("background-color","#373737");
+	});
+	$("#contrlsheZhi").click(function(){
+		$("#yongHu").hide();
+		$("#lianxirenlibiao").hide();
+		$("#faixanlibiao").hide();
+		$("#shezhilibiao").show();
+		$("#contrlhuiHua").css("background-image","url('image/huiHua.png')");
+		$("#contrllianXiren").css("background-image","url('image/lianXiren.png')");
+		$("#contrlfaXian").css("background-image","url('image/faXian.png')");
+		$("#contrlsheZhi").css("background-image","url('image/sheZhiclick.png')");
+
+		$("#contrlhuiHua").css("background-color","#373737");
+		$("#contrllianXiren").css("background-color","#373737");
+		$("#contrlfaXian").css("background-color","#373737");
+		$("#contrlsheZhi").css("background-color","#1E1E1E");
+	});
 });
 
