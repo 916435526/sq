@@ -17,7 +17,7 @@ $(function(){
 		html += '			<div class="chatTitle">';
 		html += '				<div class="chatMenu"></div>';
 		html += '				<div class="chatFriendName">' + friendName +'</div>';
-		html += '				<div friendAID = "friendA'+friendID+'" chatDivID="' + chatDivID + '" class="chatClose">关闭</div>';
+		html += '				<div friendAID = "friend'+friendID+'" chatDivID="' + chatDivID + '" class="chatClose">关闭</div>';
 		html += '			</div>';
 		html += '			<div class="chatHistory"></div>';
 		html += '			<div class="chatBottm">';
@@ -36,12 +36,8 @@ $(function(){
 		$(".chatClose").click(function(){
 			var curCloseDivID = $(this).attr("chatDivID");
 			$("#" + curCloseDivID).remove();
-
-
 			var friendAid = $(this).attr("friendAID");
 			$("#" + friendAid).attr("isOpen","false");
-
-			
 		});
 
 		var divTop = Math.random()*100+10;
@@ -53,7 +49,7 @@ $(function(){
 		});
 	});
 	
-	$("#closeimage").click(function(){
+	$(".cc").click(function(){
 		$("#qq").hide();
 	});
 
@@ -123,5 +119,28 @@ $(function(){
 		$("#contrlfaXian").css("background-color","#373737");
 		$("#contrlsheZhi").css("background-color","#1E1E1E");
 	});
-});
+	$("#tiShi").hide();
+	$(".ctrlB").hover(function(){
+		$("#tiShi").show();
+	},function(){
+		$("#tiShi").hide();
+	});
 
+	
+});
+$(function(){
+	$(".ctrlB").click(function(){
+		currID = $(this).attr("pic");
+		showFlashImage();
+	});
+	var  currID = 3;
+	function showFlashImage(){
+		$("#back").css("background-image", 'url("image/' + currID +'.jpg")');
+		$(".ctrlB").removeClass("activeB");
+		$("#ctrlSpan" + currID).addClass("activeB");
+	};
+});
+	
+
+
+	

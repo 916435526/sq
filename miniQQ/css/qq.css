@@ -2,8 +2,8 @@
 a{text-decoration: none;}
 img{border: 0;}
 
-#back{background-image:url("../image/bg_3.jpg");padding: 10px 0 55px 0;background-repeat: no-repeat;background-size: 100% 100%}
-#qq{width: 280px;height: 550px;margin: 50px 0 0 100px;border: 1px solid #bbb;border-radius: 10px;box-shadow: 3px 3px 10px rgba(0,0,0,0.3);}
+#back{background-image:url("../image/1.jpg");padding: 50px 0 55px 0;background-repeat: no-repeat;background-size: 100% }
+#qq{width: 280px;height: 550px;margin: 10px 0 0 100px;border: 1px solid #bbb;border-radius: 10px;box-shadow: 3px 3px 10px rgba(0,0,0,0.3);}
 
 /*qq标题*/
 #qqTitle{width: 100%;height: 30px;margin-top: 4px}
@@ -62,3 +62,19 @@ img{border: 0;}
 .img1{width: 50px;height: 50px;background-image: url("../image/kongJian.jpg");background-size: 100%;background-repeat: no-repeat;margin: 10px auto;cursor: pointer;}
 .img2{width: 50px;height: 50px;background-image: url("../image/youJian.jpg");background-size: 100%;background-repeat: no-repeat;margin: 10px auto;cursor: pointer;}
 .img3{width: 50px;height: 50px;background-image: url("../image/qqshouye.png");background-repeat: no-repeat;background-size: 100%;margin: 10px auto;cursor: pointer;}
+
+#geXing{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 20px auto;border-radius: 5px}
+#gxqm{width: 80px;height: 22px;color: #666666;margin-top: 10;margin-left: 10px;display: block;float: left;}
+#qm{width: 120px;height: 22px;color: #000000;margin-top: 10px;display: block;float: left;font-family: 微软雅黑}
+#banBen{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px}
+#ban{width: 80px;height: 22px;color: #666666;margin-top: 10;margin-left: 10px;display: block;float: left;font-family: 微软雅黑}
+#ben{width: 120px;height: 22px;color: #000000;margin-top: 10px;display: block;float: left;font-family: 微软雅黑}
+#bangZhu{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px}
+#bz{width: 80px;height: 22px;color: #000000;margin-top: 10;margin-left: 10px;display: block;float: left;font-family: 微软雅黑}
+#tuiChu{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px;background-color: #E33725;cursor: pointer;}
+#tc{width: 100px;height: 22px;color: #000000;margin-top: 10;margin-left: 70px;display: block;float: left;font-family: 微软雅黑}
+
+#ctrlBack{width: 120px;height: 30px;margin: 10px 0 0 100px;}
+.ctrlB{width: 10px;height: 13px;float: left; border-radius:5px;border: 1px solid #D4D5D6;margin: 5px;color: #FFFFFF;font-size: 8px;text-align: center;cursor: pointer; }
+.activeB{background-color: #212124}
+#tiShi{width: 30px;height: 30px;background-color: #FFFFFF;color: #808181;font-size: 5px;border-radius: 2px;margin: 10px}
