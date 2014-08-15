@@ -126,6 +126,35 @@ $(function(){
 		$("#tiShi").hide();
 	});
 
+	$("#member").show();
+	$("#qun").hide();
+	$("#taolun").hide();
+	$("#memberT").click(function(){
+		$("#member").show();
+		$("#qun").hide();
+		$("#taolun").hide();
+		$("#memberT").addClass("activeTab");
+		$("#qunTab").removeClass("activeTab");
+		$("#taolunZhu").removeClass("activeTab");	
+	});
+	$("#qunTab").click(function(){
+		$("#member").hide();
+		$("#qun").show();
+		$("#taolun").hide();
+		$("#memberT").removeClass("activeTab");
+		$("#qunTab").addClass("activeTab");
+		$("#taolunZhu").removeClass("activeTab");
+	});
+	$("#taolunZhu").click(function(){
+		$("#member").hide();
+		$("#qun").hide();
+		$("#taolun").show();
+		$("#memberT").removeClass("activeTab");
+		$("#qunTab").removeClass("activeTab");
+		$("#taolunZhu").addClass("activeTab");
+		
+	});
+	
 	
 });
 $(function(){
