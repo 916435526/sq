@@ -66,10 +66,10 @@ img{border: 0;}
 #geXing{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 20px auto;border-radius: 5px}
 #gxqm{width: 80px;height: 22px;color: #666666;margin-top: 10;margin-left: 10px;display: block;float: left;}
 #qm{width: 120px;height: 22px;color: #000000;margin-top: 10px;display: block;float: left;font-family: 微软雅黑}
-#banBen{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px}
+#banBen{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px;}
 #ban{width: 80px;height: 22px;color: #666666;margin-top: 10;margin-left: 10px;display: block;float: left;font-family: 微软雅黑}
 #ben{width: 120px;height: 22px;color: #000000;margin-top: 10px;display: block;float: left;font-family: 微软雅黑}
-#bangZhu{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px}
+#bangZhu{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px;cursor: pointer;}
 #bz{width: 80px;height: 22px;color: #000000;margin-top: 10;margin-left: 10px;display: block;float: left;font-family: 微软雅黑}
 #tuiChu{width: 240px;height: 40px;border: 1px solid #AFC8E2;margin: 25px auto;border-radius: 5px;background-color: #E33725;cursor: pointer;}
 #tc{width: 100px;height: 22px;color: #000000;margin-top: 10;margin-left: 70px;display: block;float: left;font-family: 微软雅黑}
