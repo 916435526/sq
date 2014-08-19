@@ -1,0 +1,9 @@
+$(function(){
+	$(".topSouCon").hide();
+	$("#topSou").click(function(){
+		$(".topSouCon").slideDown();
+	})
+	$("body").click(function(){
+		$(".topSouCon").hide();
+	})
+})
