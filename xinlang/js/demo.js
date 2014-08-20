@@ -12,6 +12,13 @@ $(function(){
 	},function(){
 		$(this).find(".topCon").hide();
 	})
+
+	$(".topMenuLeft").hover(function(){
+		$(this).find(".topMenuAll").show();
+	},function(){
+		$(this).find(".topMenuAll").hide();
+	})
+
 });
 
 

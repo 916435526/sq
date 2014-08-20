@@ -4,16 +4,25 @@ a{text-decoration: none;}
 
 body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 #top{ width: 100%; height: 40px; position: fixed; z-index: 99; background-image: url("image/bg_nav.png"); background-repeat: repeat-x;}
+#main{width: 980px;height: 6693px;margin: 0px auto;padding-top: 70px}
 #topMain{ width: 100%; height: 41px;background-image: url("image/bg_line.png"); background-position: 100% 38px; background-repeat: repeat-x;}
 .topLogo{float: left;width: 190px;height: 39px;background-image: url("image/bg_line.png");background-position: -548px -45px;display: block;margin-left: 170px}
 .topMenuLeft1{float: left; width: 70px;height: 40px;background-image: url("image/bg_nav.png");background-position: 0px -76px;background-repeat: repeat-x;}
 .topMenuLeft{width: 70px;height: 40px;float: left;}
 .topMenuLeftTitle{width: 50px; height: 20px;color: #FFFFFF; font-size: 15px;display: block;padding-top: 10px;padding-left: 18px}
 
-.topMenuAll{width: 400px; height: 240px;background-color: #FFFFFF; position: absolute; z-index: 11; top:38px;border:1px solid rgb(51, 51, 51);padding: 10px 20px 0 0}
-#topMenuAllXin{width: 62px;height: 13px;cursor: #333;font-size: 12px;font-weight: bold;padding: 10px 10px 20px 10px}
-.topMenuAll li{width: 70px;height: 78px;float: left;padding: 0 0 20px 24px}
-.topMenuAll a{color: #333333;font-size: 10px;float: left;}
+.topMenuAll{display: none; width: 400px; height: 240px;background-color: #FFFFFF; position: absolute; z-index: 11; top:38px;border:1px solid rgb(51, 51, 51);padding: 10px 20px 0 0}
+#topMenuAllXinA{width: 62px;height: 13px;cursor: #333;font-size: 12px;font-weight: bold;padding: 10px 10px 20px 10px}
+.topMenuA{width: 100%;height: 80px;cursor: pointer;}
+.topMenuA li{width: 70px;height: 78px;float: left;padding: 0 0 10px 24px}
+.topMenuA a{color: #333333;font-size: 10px;float: left;}
+#topMenuAllXinB{width: 62px;height: 13px;cursor: #333;font-size: 12px;font-weight: bold;padding: 10px 10px 20px 10px}
+.topMenuB{width: 100%;height: 80px;cursor: pointer;}
+.topMenuB li{width: 70px;height: 78px;float: left;padding: 0 0 20px 24px}
+.topMenuB a{color: #333333;font-size: 10px;float: left;}
+img{border-radius: 5px}
+.topMenuA :hover{color: #0A8CD2}
+.topMenuB :hover{color: #0A8CD2}
 
 
 #topSou{width: 235px;height: 24px;float: left;background-image: url("image/sousuo.png");background-position: 0px -5px;margin:7px 0 0 10px;background-repeat: no-repeat;}
@@ -37,4 +46,25 @@ body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 .topCon{display: none; width: 150px; height: auto; background-color: #fff; border:1px solid rgb(51, 51, 51); position: absolute; top: 37px;z-index: 1}
 .topCon li{width: 150px; height: 26px;cursor: pointer;}
 .topCon a{display: block; width: 120px;height: 26px; line-height: 26px; padding: 0 15px; color: rgb(51, 51, 51);font-size: 12px}
-.topCon li:hover{background-color: #E6E6E6};
+.topCon li:hover{background-color: #E6E6E6}
+
+#mainLeft{width: 150px;height: 665px;float: left;background-color: #F1F1F1}
+.mainLeft1{ width: 150px; height: 193px;margin-top: 10px;border-bottom: 1px solid #D9D9D9}
+.mainLeft1A li{width: 150px;height: 35px;}
+.mainLeft1A a{width: 130px; height: 35px; display: block; color: rgb(51, 51, 51); padding-left: 20px; font-size: 16px; line-height: 35px;}
+.mainLeft1A i{width: 20px;height: 20px; background-image: url("image/iconA.png");background-repeat: no-repeat;float: left;display: block;margin: 7px 10px 0 0}
+.mainLeft1li1 i{background-position: 0px -225px;}
+.mainLeft1li2 i{background-position: 0px -25px;}
+.mainLeft1li3 i{background-position: 0px -100px;}
+.mainLeft1li4 i{background-position: 0px -125px;}
+.mainLeft1li5 i{background-position: 0px -150px;}
+.mainLeft1A li:hover{background-color: #E6E6E6}
+
+.mainLeft1B{ width: 150px; height: 43px; border-top: 1px solid #D7D7D7;}
+.mainLeft1B i{width: 20px;height: 20px; background-image: url("image/icon.png");background-repeat: no-repeat;background-position: 0px -124px; float: left;display: block;margin: 7px 10px 0 0}
+.mainLeft1B a{width: 130px; height: 35px; display: block; color: rgb(51, 51, 51); padding-left: 20px; font-size: 16px; line-height: 35px;}
+
+
+
+#mainMid{width: 600px;height: 665px;float: left;background-color: #FAFAFA}
+#mainRight{width: 225px;height: 665px;border-left: 1px solid #D9D9D9;float: left;background-color: #FAFAFA}
