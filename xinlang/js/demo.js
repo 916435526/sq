@@ -1,9 +1,17 @@
 $(function(){
 	$(".topSouCon").hide();
-	$("#topSou").click(function(){
+	$("#topSou input").click(function(){
 		$(".topSouCon").slideDown();
 	})
 	$("body").click(function(){
 		$(".topSouCon").hide();
+	});
+
+	$(".topSet").hover(function(){
+		$(this).find(".topCon").show();
+	},function(){
+		$(this).find(".topCon").hide();
 	})
-})
+});
+
+

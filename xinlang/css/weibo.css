@@ -10,16 +10,31 @@ body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 .topMenuLeft{width: 70px;height: 40px;float: left;}
 .topMenuLeftTitle{width: 50px; height: 20px;color: #FFFFFF; font-size: 15px;display: block;padding-top: 10px;padding-left: 18px}
 
+.topMenuAll{width: 400px; height: 240px;background-color: #FFFFFF; position: absolute; z-index: 11; top:38px;border:1px solid rgb(51, 51, 51);padding: 10px 20px 0 0}
+#topMenuAllXin{width: 62px;height: 13px;cursor: #333;font-size: 12px;font-weight: bold;padding: 10px 10px 20px 10px}
+.topMenuAll li{width: 70px;height: 78px;float: left;padding: 0 0 20px 24px}
+.topMenuAll a{color: #333333;font-size: 10px;float: left;}
+
+
 #topSou{width: 235px;height: 24px;float: left;background-image: url("image/sousuo.png");background-position: 0px -5px;margin:7px 0 0 10px;background-repeat: no-repeat;}
+#search{width: 193px;height: 20px}
 #topSou input{width: 193px;height: 20px;margin: 2px 0 0 10px;border: 0px}
-.topSouCon{background-color: #FFFFFF; width: 232px; height: 260px; padding-top: 10px; border:1px solid #333333; position: absolute; top:33px; left: 650px;}
+.topSouCon{ background-color: #FFFFFF; width: 232px; height: 260px; padding-top: 10px; border:1px solid #333333; position: absolute; top:33px; left: 650px;}
 .topConSlect{width: 212px;height: 22px;cursor: pointer;padding: 4px 0px 0px 20px;}
 #jieguo{color: #0078B6}
 .topSouCon a{color: #333333;font-size: 12px;}
 .topConSlect:hover{background-color: #E6E6E6};
 
 .topPerson{width: 257px;height: 38px;}
-.personName{width: 83px;height: 38px;float: left;margin-left: 30px;color: #FFFFFF;display: block;line-height:33px;text-align: center;}
+.personName{width: 83px;height: 38px;float: left;margin-left: 30px;color: #FFFFFF;display: block;line-height:37px;text-align: center;}
 .personName:hover{background-image: url("image/bg_nav.png");background-position: 0px -76px}
-.topSet{width: 42px;height: 38px;float: left;background-image: url("image/bg_line.png");}
-#xinxi{width: 15px;height: 15px; background-position: -225px -6px;background-repeat: no-repeat;}
+.topSet{width: 42px;height: 38px;float: left;cursor: pointer;}
+.topSet:hover{background-image: url("image/bg_nav.png");background-position: 0px -76px}
+#faweibo{width: 16px;height: 16px;background-image: url("image/icon.png");margin: 12px 0 0 12px; background-position: -49px 1px;background-repeat: no-repeat;}
+#xinxi{width: 16px;height: 16px;background-image: url("image/icon.png");margin: 12px 0 0 12px; background-position: -49px -149px;background-repeat: no-repeat;}
+#shezhi{width: 16px;height: 16px;background-image: url("image/icon.png");margin: 12px 0 0 12px; background-position: -50px -100px;background-repeat: no-repeat;}
+#huangguan{width: 16px;height: 16px;background-image: url("image/icon.png");margin: 12px 0 0 12px; background-position: -50px -174px;background-repeat: no-repeat;}
+.topCon{display: none; width: 150px; height: auto; background-color: #fff; border:1px solid rgb(51, 51, 51); position: absolute; top: 37px;z-index: 1}
+.topCon li{width: 150px; height: 26px;cursor: pointer;}
+.topCon a{display: block; width: 120px;height: 26px; line-height: 26px; padding: 0 15px; color: rgb(51, 51, 51);font-size: 12px}
+.topCon li:hover{background-color: #E6E6E6};
