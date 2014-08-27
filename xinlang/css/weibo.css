@@ -9,14 +9,16 @@ body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 .topLogo{float: left;width: 190px;height: 39px;background-image: url("image/bg_line.png");background-position: -548px -45px;display: block;margin-left: 170px}
 .topMenuLeft1{float: left; width: 70px;height: 40px;background-image: url("image/bg_nav.png");background-position: 0px -76px;background-repeat: repeat-x;}
 .topMenuLeft{width: 70px;height: 40px;float: left;}
+.topMenuLeft:hover{background-color: #FAFAFA}
 .topMenuLeftTitle{width: 50px; height: 20px;color: #FFFFFF; font-size: 15px;display: block;padding-top: 10px;padding-left: 18px}
 
-.topMenuAll{display: none; width: 400px; height: 240px;background-color: #FFFFFF; position: absolute; z-index: 11; top:38px;border:1px solid rgb(51, 51, 51);padding: 10px 20px 0 0}
-#topMenuAllXinA{width: 62px;height: 13px;cursor: #333;font-size: 12px;font-weight: bold;padding: 10px 10px 20px 10px}
+.topMenuAll{display: none; width: 550px; height: 240px;background-color: #FFFFFF; position: absolute; z-index: 11; top:38px; border:1px solid rgb(51, 51, 51);padding: 10px 20px 0 0;}
+.guangGao{width: 150px;height: 150px;float: right;margin-top: -200px;background-image: url("image/9.png");background-size: 150px 150px }
+.topMenuAll legend{color: #333; font-size: 12px; font-weight: bold; padding: 10px 10px 10px 10px}
+.topMenuAlldest{width: 400; border-top: 1px solid #CCCCCC; border-left: 0; border-right: 0; border-bottom: 0;}
 .topMenuA{width: 100%;height: 80px;cursor: pointer;}
 .topMenuA li{width: 70px;height: 78px;float: left;padding: 0 0 10px 24px}
 .topMenuA a{color: #333333;font-size: 10px;float: left;}
-#topMenuAllXinB{width: 62px;height: 13px;cursor: #333;font-size: 12px;font-weight: bold;padding: 10px 10px 20px 10px}
 .topMenuB{width: 100%;height: 80px;cursor: pointer;}
 .topMenuB li{width: 70px;height: 78px;float: left;padding: 0 0 20px 24px}
 .topMenuB a{color: #333333;font-size: 10px;float: left;}
@@ -48,7 +50,7 @@ img{border-radius: 5px}
 .topCon a{display: block; width: 120px;height: 26px; line-height: 26px; padding: 0 15px; color: rgb(51, 51, 51);font-size: 12px}
 .topCon li:hover{background-color: #E6E6E6}
 
-#mainLeft{width: 150px;height: 800px;float: left;background-color: #F1F1F1}
+#mainLeft{width: 150px;height: 1300px;float: left;background-color: #F1F1F1}
 .mainLeft1{ width: 150px; height: 193px;margin-top: 10px;}
 .mainLeft1A li{width: 150px;height: 35px;}
 .mainLeft1A a{width: 130px; height: 35px; display: block; color: rgb(51, 51, 51); padding-left: 20px; font-size: 16px; line-height: 35px;}
@@ -60,13 +62,15 @@ img{border-radius: 5px}
 .mainLeft1li5 i{background-position: 0px -150px;}
 .mainLeft1A li:hover{background-color: #E6E6E6}
 .mainLeft1B{ width: 150px; height: 43px; border-top: 1px solid #D7D7D7;}
+.mainLeft1B:hover{background-color: #E6E6E6}
 .mainLeft1B i{width: 20px;height: 20px; background-image: url("image/icon.png");background-repeat: no-repeat;background-position: 0px -124px; float: left;display: block;margin: 7px 10px 0 0}
 .mainLeft1B a{width: 130px; height: 35px; display: block; color: rgb(51, 51, 51); padding-left: 20px; font-size: 16px; line-height: 35px;}
-.mainLeft2{width: 150px; height: auto; position: relative;}
+.mainLeft2{width: 150px; height: auto; position: relative;margin-top: 30px}
 .mainLeft2fld{ width: 135px; height: 23px;padding: 0 0 6px 15px; margin-top: 10px; border-top: 1px solid rgb(217, 217, 217); border-left: 0; border-right: 0; border-bottom: 0; }
 .mainLeft2fld legend{ padding: 1px 5px 0 5px; color: rgb(128, 128, 128); font-size: 12px; font-weight: 700; line-height: 22px;}
 .mainLeft2Ul{ width: 150px; height: auto;}
 .mainLeft2Ul li{ width: 150px; height: 28px;}
+.mainLeft2Ul li:hover{background-color: #E6E6E6}
 .mainLeft2Ul a{ width: 100%; height: 100%; display: block;font-size: 11px;color: #333333}
 .em1{float: left; width: 12px; height: 12px; vertical-align: middle; background-image: none; background-position: -75px -50px; margin:8px 5px 0 5px;}
 .em2{float: left; width: 20px; height: 20px; vertical-align: middle; margin:4px 10px 0 0; background-image: url("image/icon.png"); background-position: 0px -149px;}
@@ -74,6 +78,7 @@ img{border-radius: 5px}
 .open{ margin-left: 20px; cursor: pointer;font-size: 11px;color: #0A8CD2}
 .hide{ display: none;}
 .mainLeft3Ul li{ width: 150px; height: 21px;}
+.mainLeft3Ul li:hover{background-color: #E6E6E6}
 .mainLeft3Ul a{ width: 150px; height: 21px; display: block; line-height: 21px; color: rgb(51, 51, 51);font-size: 11px;color: #333333;margin-top: 3px}
 .mainLeft3Ul img{ width:16px; height: 16px; display: block; float: left; margin: 2px 10px 0 20px;}
 
