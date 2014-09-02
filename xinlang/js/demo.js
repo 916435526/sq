@@ -22,6 +22,21 @@ $(function(){
 		$(this).find(".topMenuAll").hide();
 	})
 
+	$(".mainCenterText textarea").focus(function(){
+		$(this).parent().css("border-color","rgb(255,185,65)");
+		var val=$(this).text();
+		if (val=="中秋即将到来，说说你心目中的最佳赏月地！") {
+			$(this).text("#最美赏月地#");
+		};
+		$(this).css("color","#000");
+	}).blur(function(){
+		$(this).parent().css("border-color","rgb(204,204,204)");
+		var val=$(this).text();
+		if (val=="#最美赏月地#") {
+			$(this).text("中秋即将到来，说说你心目中的最佳赏月地！");
+			$(this).css("color","rgb(128, 128, 128)");
+		};	
+	});
 });
 
 

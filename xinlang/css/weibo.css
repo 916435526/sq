@@ -50,7 +50,7 @@ img{border-radius: 5px}
 .topCon a{display: block; width: 120px;height: 26px; line-height: 26px; padding: 0 15px; color: rgb(51, 51, 51);font-size: 12px}
 .topCon li:hover{background-color: #E6E6E6}
 
-#mainLeft{width: 150px;height: 1300px;float: left;background-color: #F1F1F1}
+#mainLeft{width: 150px;height: 800px;float: left;background-color: #F1F1F1}
 .mainLeft1{ width: 150px; height: 193px;margin-top: 10px;}
 .mainLeft1A li{width: 150px;height: 35px;}
 .mainLeft1A a{width: 130px; height: 35px; display: block; color: rgb(51, 51, 51); padding-left: 20px; font-size: 16px; line-height: 35px;}
@@ -84,6 +84,48 @@ img{border-radius: 5px}
 
 
 
+#mainMid{width: 600px;height: 800px;float: left;background-color: #FAFAFA;padding-left: 20px;padding-right: 20px;padding-top: 20px}
+#mainMidTop{width: 560px;height: 22px;}
+#mainMidTopLeft{width: 224px;height: 22px;float: left;background-image: url("image/all_iconbtn.png");}
+.mainMidTopRight{width: 300px;height: 22px;float: right;}
+.mainMidTopRight a{font-size: 11px;color: #0A8CD2;}
+.mainCenterText{ position: relative; width: 558px; height: 88px; margin-top: 15px; border: 1px solid #CCCCCC;}
+.mainCenterText textarea{ width:544px; height: 74px; padding: 5px; resize: none; margin: 2px 0 0 2px; overflow-x: hidden; border:0; color: rgb(128, 128, 128); font-size: 14px; line-height: 18px;}
+.mainCenterTextRight{ width: 11px; height: 19px; position: absolute; right: -11px; top: 19px; background-image: url("image/all_iconbtn.png"); background-position: -475px 0;}
 
-#mainMid{width: 600px;height: 665px;float: left;background-color: #FAFAFA}
-#mainRight{width: 225px;height: 665px;border-left: 1px solid #D9D9D9;float: left;background-color: #FAFAFA}
+.mainCenterBottom{ width: 560px; height: 35px;}
+.mainCenterBLeft{ float: left; width: 390px; height: 17px;padding: 10px 0 0 0;}
+.mainCenterBLeftA{ width: auto; height: 17px; margin-right: 14px; display: block; float: left; color: rgb(51, 51, 51); line-height: 16px;font-size: 12px}
+.mainCenterBLeftA:hover{color: #0A8CD2}
+.mainCenterBLeftA i{ width: 16px; height: 16px; display: block; float: left; background-image: url("image/icon.png"); margin-right: 3px;}
+.mainCenterBLeftI1 i{ background-position: -275px 0;}
+.mainCenterBLeftI2 i{ background-position: -275px -25px;}
+.mainCenterBLeftI3 i{ background-position: -275px -50px;}
+.mainCenterBLeftI4 i{ background-position: -275px -75px;}
+.mainCenterBLeftI5 i{ background-position: -275px -100px;}
+
+.mainCenterBRight{ float: right; width: 165px; height: 30px; padding: 5px 0 0 0;}
+.mainCenterBRightR{ width: 80px; height: 28px; color: rgb(230, 65, 65); font-size: 16px; line-height: 26px; display: block; background-color: rgb(230, 65, 65); float: right;border-radius: 5px}
+.mainCenterBRightR span{ width: 80px; height: 26px; display: block; color: #fff;text-align: center;}
+.mainCenterBLeftI7{ line-height: 26px; float: right;}
+
+.mainCenterGuangGao{ width: 560px; height: 80px; margin-top: 20px;}
+.mainCenterGuangGao img{ width: 100%; height: 100%;}
+
+.mainCenter3{ width: 560px; height: 68px; margin-top: 20px;}
+.mainCenter3Top{ width: 560px; height: 44px; position: relative;}
+.mainCenter3TopUl{ width: 560px; height: 32px; border-bottom: 2px solid rgb(234, 20, 41); }
+.mainCenter3TopD{ width: 44px; height: 8px; background-color: #fff; margin-top: -8px; background-image: url("image/icon.png"); background-position: -500px -75px;}
+.mainCenter3TopUl li{ float: left; width: 50px; height: 32px;}
+.mainCenter3TopUl a{ width: 30px; *width: 50px; height: 30px; display: block; padding: 0 10px; font-size: 14px; line-height: 30px; color: rgb(51, 51, 51);}
+.mainCenter3TopUl .a{ font-weight: 700;}
+.mainCenter3TopRight{ width: 302px; height: 22px; float: right; margin-top: -12px;}
+.mainCenter3TopRight1{  background-color: #fff; width: 190px; height: 20px; border: 1px solid rgb(217, 217, 217); border-radius: 10px; float: left;}
+.mainCenter3TopRight1 input{ width: 130px; height: 20px; color: rgb(128, 128, 128); line-height: 15px; padding: 2px 0; float: left; border:0; margin-left: 5px;}
+.mainCenter3TopRight1R{ width: 35px; height: 22px; float: left;}
+.mainCenter3TopRight1R a{ width: 19px; height: 20px; display: block; background-image: url("image/icon.png"); background-position: -72px -172px; float: right; }
+.mainCenter3TopRight2{ width: 98px; height: 20px; float: right; border: 1px solid rgb(217, 217, 217); background-color: rgb(242, 242, 242); border-radius: 10px;font-size: 12px}
+.mainCenter3TopRight2 a{ width: 79px; height: 28px; display: block; color: rgb(51,51,51); line-height: 20px; }
+.mainCenter3TopRight2 i{ width: 16px; height: 16px; margin: 2px 3px 0 8px; display: block; background-image: url("image/icon.png"); background-position: -150px -50px; float: left;}
+
+#mainRight{width: 188px;height:800px;border-left: 2px solid #D9D9D9;float: right;background-color: #FAFAFA}
