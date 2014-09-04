@@ -4,7 +4,8 @@ a{text-decoration: none;}
 
 body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 #top{ width: 100%; height: 40px; position: fixed; z-index: 99; background-image: url("image/bg_nav.png"); background-repeat: repeat-x;}
-#main{width: 980px;height: 6693px;margin: 0px auto;padding-top: 70px}
+#main{width: 980px;height: 850px;margin: 0px auto;padding-top: 70px}
+#footer{width: 980px;height: 200px;margin: 0px auto;background-color: #FAFAFA;}
 #topMain{ width: 100%; height: 41px;background-image: url("image/bg_line.png"); background-position: 100% 38px; background-repeat: repeat-x;}
 .topLogo{float: left;width: 190px;height: 39px;background-image: url("image/bg_line.png");background-position: -548px -45px;display: block;margin-left: 170px}
 .topMenuLeft1{float: left; width: 70px;height: 40px;background-image: url("image/bg_nav.png");background-position: 0px -76px;background-repeat: repeat-x;}
@@ -87,7 +88,7 @@ body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 #mainMidTop{width: 560px;height: 22px;}
 #mainMidTopLeft{width: 224px;height: 22px;float: left;background-image: url("image/all_iconbtn.png");}
 .mainMidTopRight{width: 300px;height: 22px;float: right;}
-.mainMidTopRight a{font-size: 11px;color: #0A8CD2;}
+.mainMidTopRight a{font-size: 12px;color: #0A8CD2;}
 .mainCenterText{ position: relative; width: 558px; height: 88px; margin-top: 15px; border: 1px solid #CCCCCC;}
 .mainCenterText textarea{ width:544px; height: 74px; padding: 5px; resize: none; margin: 2px 0 0 2px; overflow-x: hidden; border:0; color: rgb(128, 128, 128); font-size: 14px; line-height: 18px;}
 .mainCenterTextRight{ width: 11px; height: 19px; position: absolute; right: -11px; top: 19px; background-image: url("image/all_iconbtn.png"); background-position: -475px 0;}
@@ -142,13 +143,16 @@ body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 .mainCenter4MainContent4{ width: 100%; height: 14px;}
 .mainCenter4MainContent4Right{ width: 239px; height: 14px; float: right;}
 .mainCenter4MainContent4Left{ width: 250px; height: 14px; float: left;}
-.mainCenter4MainContent4 a{ color: #0A8CD2; line-height: 14px;font-size: 10px }
-.mainCenter4MainContent4 span{ color: #808080; line-height: 14px;font-size: 10px}
+.mainCenter4MainContent4 a{ color: #0A8CD2; line-height: 14px;font-size: 11px }
+.mainCenter4MainContent4 span{ color: #808080; line-height: 14px;font-size: 11px}
 #mainCenter4MainContent4RightSA em{  float: left; width: 13px; height: 14px; background-image: url("image/icon.png"); background-position: -75px 0px;margin-top: 3px}
 .bigPic{ display: none; position: absolute; top: 0; left: 0;}
 .bigPic img{ width: 440px; height: 270px; cursor: url("image/small.cur"),auto;}
 .mainCenter4Main2{ width: 560px; height: 160px;  padding-bottom: 11px; border-bottom: 1px solid #BABCBE;margin-top: 50px}
 
+
+
+#mainRight{width: 188px;height:800px;border-left: 2px solid #D9D9D9;float: right;background-color: #FAFAFA}
 .mainRight1{ width: 230px; height: 136px;}
 .mainRight1Main{ width: 190px; height: 83px; margin: 20px 0 0 20px;}
 .mainRight1MainL{ width: 80px; height: 81px; display: block; float: left; }
@@ -173,16 +177,32 @@ body{background-image: url("image/body_bg.png");background-repeat: no-repeat;}
 .mainRight2D1TPic{ width: 50px; height:50px; display: block; float: left;}
 .mainRight2D1TPic img{ width: 100%; height: 100%;}
 .mainRight2D1TPicC{ width: 130px; height: 50px; float: right; text-align: left;}
-.mainRight2D1TPicC1{ line-height: 20px; color: rgb(51,51,51); }
-.mainRight2D1TPicC2{ width: 46px; height: 20px; border:1px solid rgb(217, 217, 217); color: rgb(51,51,51); background-color:rgb(242, 242, 242); display: block; }
-.mainRight2D1TPicC2 span{ width: 42px; height: 16px; display: block; *width: 46px; *height: 20px; padding: 2px 0px 0 4px; border:1px solid #fff; }
-.mainRight2D1TPicC2 em{ color: rgb(255, 160, 10); width: 9px; height: 19px; display: block; float: left; font-size: 16px; font-weight: 700; line-height: 14px; font-style: normal;}
-.mainRight2D1TPicC2:hover{ background-color: rgb(255, 160, 10); border:1px solid rgb(255, 160, 10);}
-.mainRight2D1B{ width: 174px; height: 20px; *width: 190px; *height: 22px; border: 1px solid rgb(230, 230, 230); margin: 8px 0 5px 0; background-color: rgb(242,242,242);}
-.mainRight2D1B p{ color: rgb(128, 128, 128); line-height: 20px; text-align: left; margin-left: 10px;}
-.mainRight2D2{ width: 190px; height: 14px; margin: 0px 20px 0 20px;}
-.mainRight2D2L{ float: left;}
-.mainRight2D2R{ float: right;}
+.mainRight2D1TPicC1{ line-height: 20px; color: #333333; font-size: 13px}
+.mainRight2D1TPicC2{ width: 55px; height: 20px; border:1px solid #D9D9D9; color: #333333; background-color:#F2F2F2; display: block;border-radius: 4px }
+.mainRight2D1TPicC2 span{ width: 49px; height: 16px; display: block; padding: 2px 0px 0 4px; border:1px solid #fff; font-size: 14px;border-radius: 4px }
+.mainRight2D1TPicC2 em{ color: #FDAD2E; width: 9px; height: 19px; display: block; float: left; font-size: 16px; font-weight: 700; line-height: 14px; font-style: normal;margin-left: 2px}
+.mainRight2D1TPicC2:hover{ background-color: #FFA00A; border:1px solid rgb(255, 160, 10);}
+.mainRight2D1B{ width: 150px; height: 40px; border: 1px solid #E6E6E6;  background-color: #F2F2F2;border-radius: 4px;margin-top: 20px;font-size: 14px}
+.mainRight2D1B p{ color:#808080; line-height: 20px; text-align: left; margin-left: 10px;}
+.mainRight2D1B a{color: #0A8CD2}
 
 
-#mainRight{width: 188px;height:800px;border-left: 2px solid #D9D9D9;float: right;background-color: #FAFAFA}
+
+
+#footerTop{ width: 940px; height: 85px; padding: 20px;border-bottom: 1px solid #BABCBE}
+#footerTop ul{ width: 170px; height: 85px; float: left; margin-right: 18px;}
+#footerTop span{ font-size: 12px; line-height: 20px; }
+#footerTop a{font-size: 12px;color: #0A8CD2}
+#footerTop a:hover{ text-decoration: underline}
+
+#footerBottom{ width: 940px; height: 74px; margin-top: 15px; text-align: left;padding: 0px 0px 0px 20px}
+.footerBottomleft{ width: 558px; height: 64px; float: left; padding-top: 10px;}
+.footerBottomright{ width: 157px; height: 45px; float: right; padding-top: 28px;}
+
+.footerBottomleft a {font-size: 12px;color: #333333}
+.footerBottomleft span{font-size: 12px;color: #333333}
+.footerBottomright p{ width: 100%; height: 22px; margin-bottom: 5px;}
+.footerSleect{ width: 83px; height: 19px; padding: 1px; float: right;}
+.footerSleect option{ width: 73px; height: 15px; padding: 0 5px 0 3px;}
+.footerBottomright span{ color:rgb(128, 128, 128);}
+.footerBottomright a,.mainRight2D1B a:hover,.mainRight3Ul a:hover{ text-decoration: underline;}
